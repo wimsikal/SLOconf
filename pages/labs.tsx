@@ -30,7 +30,15 @@ export default function ExpoPage() {
   return (
     <Page meta={meta}>
       <Layout>
-        <Header hero="Labs" description={meta.description} />
+        <Header hero="Hands-on Labs" description={meta.description} />
+        <h2>Some Lab Ideas/Topics (Crowdsourced)</h2>
+        <ul>
+          <li>SLO-driven continuous delivery with Keptn (@grabnerandi)</li>
+          <li>SLO-driven auto-remediation with Keptn (@grabnerandi / @jetzlstorfer)</li>
+          <li>SLO-driven resilience engineering with Keptn (@jetzlstorfer)</li>
+        </ul>
+        <p>General input: google codelabs gives a great experience for delivering labs/hands-on exercises. We are using this currently for our tutorials in our project.</p>
+        <p>Lab Planning Meeting: Thursday, March 11, 2021 9:00 AM - 10:00 am (PT) { } <a href='https://nobl9.zoom.us/j/99692135092?pwd=UUpsaENOVmllcEQ0cnBWdi9PVHJCZz09'>Zoom Details</a></p>
       </Layout>
     </Page>
   );
