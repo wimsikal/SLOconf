@@ -22,8 +22,7 @@ import { NAVIGATION } from '@lib/constants';
 import styles from './layout.module.css';
 import Logo from './icons/icon-logo';
 import MobileMenu from './mobile-menu';
-import Footer, { HostedByVercel } from './footer';
-import ViewSource from '@components/view-source';
+import Footer, { HostedByNobl9 } from './footer';
 
 type Props = {
   children: React.ReactNode;
@@ -38,7 +37,6 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
 
   return (
     <>
-      <ViewSource />
       <div className={styles.background}>
         {!hideNav && (
           <header className={cn(styles.header)}>
@@ -65,7 +63,7 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
               ))}
             </div>
             <div className={cn(styles['header-right'])}>
-              <HostedByVercel />
+              <HostedByNobl9 />
             </div>
           </header>
         )}

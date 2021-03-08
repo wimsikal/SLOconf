@@ -1,3 +1,49 @@
+# SLOConf - The Service Level Objective Conference for SREs
+
+The first Service Level Objective conference. Designed for while-you’re-working participation.
+May 17-20, 2021
+
+Follow [@sloconf](https://twitter.com/sloconf)
+
+Organized by Kit Merker [@kitmerker](https://twitter.com/kitmerker) / kit@nobl9.com)
+
+Planning Meeting: https://www.meetup.com/Beyond-Seattle-SRE/events/276471363/ 
+
+[Public SCLConf Planning Document](https://docs.google.com/document/d/1dRUuqyw0w7pAHtjLWL68eapZPxI0Eth13DSpkhUpDJE/edit) 
+
+## Intro
+
+The world wants to share and learn about SLOs. And who am I to stop them? Building on the success of the [Beyond Seattle SRE Meetup](https://www.meetup.com/Beyond-Seattle-SRE/), we are considering a virtual event that will educate and connect engineers, practitioners, and interested parties to learn and share.
+
+## Format
+
+* Call for presentations: 5-10 minute pre-recorded videos, curated by program committee
+* Slack discussion area (hosted by Beyond Seattle SRE Meetup)
+* Self Directed Hands-on Labs 
+* Minimal synchronous communication (maybe an optional kickoff/close zoom, live Q&A Panel)
+* Maximally inclusive, attend-while-you-work, focused on learning all about Service Level Objectives (and closely related concepts: error budgets, service level indicators [SLIs], Slogicians).
+* Strict no sales pitch policy
+
+## Tracks
+
+* New To SLOs
+* Executive Series
+* Technical and Deep Dive
+* Beyond Theory
+
+
+
+
+
+
+
+
+
+### Attribution
+
+SLOConf is adapted from [Vercel Virtual Event Starter Kit](https://vercel.com/virtual-event-starter-kit), available at https://github.com/vercel/virtual-event-starter-kit
+
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&integration-ids=oac_I1h8Dm9Mf30VNb3xQ0hebYvS&external-id=%7B%22manifest%22%3A%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fvercel%2Fvirtual-event-starter-kit%2Fmain%2Fdatocms.json%22%7D)
 
 # [Virtual Event Starter Kit](https://vercel.com/virtual-event-starter-kit)

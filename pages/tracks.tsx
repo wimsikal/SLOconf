@@ -14,53 +14,30 @@
  * limitations under the License.
  */
 
-.svg {
-  z-index: 10;
-  position: absolute;
-  top: 0;
-  right: 0;
+
+import Page from '@components/page';
+import Header from '@components/header';
+import Layout from '@components/layout';
+
+import { META_DESCRIPTION } from '@lib/constants';
+
+export default function ExpoPage() {
+  const meta = {
+    title: 'Tracks - SLOConf',
+    description: META_DESCRIPTION
+  };
+
+  return (
+    <Page meta={meta}>
+      <Layout>
+        <Header hero="Tracks" description={meta.description} />
+        <h2>New To SLOs</h2>
+        <h2>Executive Series</h2>
+        <h2>Techical and Deep Dive</h2>
+        <h2>Beyond Theory</h2>
+      </Layout>
+    </Page>
+  );
 }
 
-.arm {
-  transform-origin: 130px 106px;
-}
 
-.svg:hover .arm {
-  animation: wave 560ms ease-in-out;
-}
-
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  20% {
-    transform: rotate(-25deg);
-  }
-
-  40% {
-    transform: rotate(10deg);
-  }
-
-  60% {
-    transform: rotate(-25deg);
-  }
-
-  80% {
-    transform: rotate(10deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-@media (max-width: 500px) {
-  .svg:hover .arm {
-    animation: none;
-  }
-
-  .svg:hover .arm {
-    animation: wave 560ms ease-in-out;
-  }
-}

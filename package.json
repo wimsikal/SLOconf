@@ -1,13 +1,13 @@
 {
-  "name": "virtual-event-starter-kit",
-  "description": "Starter kit for your virtual event.",
+  "name": "sloconf",
+  "description": "SLOConf - The Service Level Objective Conference for SREs",
   "private": true,
-  "repository": "vercel/virtual-event-starter-kit",
-  "author": "Vercel Inc.",
-  "homepage": "https://demo.vercel.events",
+  "repository": "wimsikal/sloconf",
+  "author": "wimsikal",
+  "homepage": "https://sloconf.com",
   "license": "Apache-2.0",
   "engines": {
-    "node": "12.x"
+    "node": "14.x"
   },
   "scripts": {
     "dev": "next",
