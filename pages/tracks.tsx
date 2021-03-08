@@ -31,6 +31,10 @@ export default function ExpoPage() {
     <Page meta={meta}>
       <Layout>
         <Header hero="Tracks" description={meta.description} />
+        <h2>New To SLOs</h2>
+        <h2>Executive Series</h2>
+        <h2>Techical and Deep Dive</h2>
+        <h2>Beyond Theory</h2>
       </Layout>
     </Page>
   );
