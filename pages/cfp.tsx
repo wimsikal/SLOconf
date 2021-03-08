@@ -31,6 +31,11 @@ export default function ExpoPage() {
     <Page meta={meta}>
       <Layout>
         <Header hero="Call for Papers" description={meta.description} />
+        <p>How to submit your proposal:</p>
+        <ol>
+          <li>Provide a detailed and focused description with a max of 900 characters. This is what will be used on the online schedule if your talk is accepted.</li>
+          <li>Provide a biography for all speakers, including previous speaking experience.</li>
+        </ol>
       </Layout>
     </Page>
   );
